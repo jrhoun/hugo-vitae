@@ -50,6 +50,7 @@
 				{{ .Plain | htmlUnescape }}
 				{{ end }}
 			</description>
+      <content> {{ .Content | html -}}</content>
 		</item>
 		{{ end -}}
 		{{ end }}
